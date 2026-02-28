@@ -1,0 +1,33 @@
+body{
+margin:0;
+font-family:system-ui;
+background:#0b0f18;
+color:white;
+padding:12px;
+}
+
+.card{
+background:rgba(255,255,255,.07);
+backdrop-filter:blur(22px) saturate(180%);
+border:1px solid rgba(255,255,255,.12);
+border-radius:18px;
+padding:14px;
+margin-bottom:12px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+
+.barber{
+cursor:pointer;
+}
+button{
+background:#D4AF37;
+border:none;
+padding:10px;
+border-radius:10px;
+font-weight:700;
+}
